@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react'
 import axios from 'axios'
 import Web3Modal from 'web3modal'
 
+import { createClient } from "urql";
 import {
   marketplaceAddress
 } from '../config'
@@ -10,11 +11,59 @@ import {
 import NFTMarketplace from '../artifacts/contracts/NFTMarketplace.sol/NFTMarketplace.json'
 
 export default function CreatorDashboard() {
+
+
+  const [tokens, setTokens] = useState([]);
+  const [isLoading, setIsLoading] = useState(true); // Add loading state
   const [nfts, setNfts] = useState([])
   const [loadingState, setLoadingState] = useState('not-loaded')
   useEffect(() => {
     loadNFTs()
   }, [])
+
+
+
+  const QueryURL = "https://api.studio.thegraph.com/query/54911/olx-marketplac/v0.0.1";
+
+  let query = `
+    {
+      marketItemCreateds {
+        price
+        seller
+        sold
+        tokenId
+        owner
+      }
+    }
+  `;
+
+  const client = createClient({
+    url: QueryURL
+  });
+
+  useEffect(() => {
+    if (!client) {
+      return;
+    }
+
+    const getTokens = async () => {
+      try {
+        const { data } = await client.query(query).toPromise();
+        setTokens(data.marketItemCreateds);
+        console.log(data.marketItemCreateds);
+        setIsLoading(false); // Data is loaded
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      }
+    };
+
+    getTokens();
+  }, [client]);
+
+
+
+
+
   async function loadNFTs() {
     const web3Modal = new Web3Modal({
       network: 'mainnet',
@@ -54,12 +103,25 @@ export default function CreatorDashboard() {
             nfts.map((nft, i) => (
               <div key={i} className="border shadow rounded-xl overflow-hidden">
                 <img src={nft.image} className="rounded" />
-                <div className="p-4 bg-black">
-                  <p className="text-2xl font-bold text-white">Price - {nft.price} MATIC</p>
-                </div>
+          
               </div>
             ))
           }
+          {isLoading ? (
+        // Show loading indicator while data is being fetched
+        <div>Loading...</div>
+      ) : tokens.length > 0 ? (
+        tokens.map((token) => (
+          <div className="subcnt" key={token.id}>
+            <div className="p-4  umrk bg-black">
+            <p className="text-2xl font-bold text-white">{token.price / 10**18} MATIC</p>
+
+          </div>
+            </div>
+        ))
+      ) : (
+        <div>No data available</div>
+      )}
         </div>
       </div>
     </div>

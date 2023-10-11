@@ -3,17 +3,69 @@ import { useEffect, useState } from 'react'
 import axios from 'axios'
 import Web3Modal from 'web3modal'
 import Navbar from "../Component/Course/Nav";
+
+import { createClient } from "urql";
 import {
   marketplaceAddress
 } from '../config'
 
 import NFTMarketplace from '../artifacts/contracts/NFTMarketplace.sol/NFTMarketplace.json'
 export default function Home() {
+
+  const [tokens, setTokens] = useState([]);
+  const [isLoading, setIsLoading] = useState(true); // Add loading state
+
   const [nfts, setNfts] = useState([])
   const [loadingState, setLoadingState] = useState('not-loaded')
   useEffect(() => {
     loadNFTs()
   }, [])
+
+
+  const QueryURL = "https://api.studio.thegraph.com/query/54911/olx-marketplac/v0.0.1";
+
+  let query = `
+    {
+      marketItemCreateds {
+        price
+        seller
+        sold
+        tokenId
+        owner
+      }
+    }
+  `;
+
+  const client = createClient({
+    url: QueryURL
+  });
+
+  useEffect(() => {
+    if (!client) {
+      return;
+    }
+
+    const getTokens = async () => {
+      try {
+        const { data } = await client.query(query).toPromise();
+        setTokens(data.marketItemCreateds);
+        console.log(data.marketItemCreateds);
+        setIsLoading(false); // Data is loaded
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      }
+    };
+
+    getTokens();
+  }, [client]);
+
+
+
+
+
+
+
+
   async function loadNFTs() {
     /* create a generic provider and query for unsold market items */
     const provider = new ethers.providers.Web3Provider(window.ethereum);
@@ -31,6 +83,12 @@ export default function Home() {
       const tokenUri = await contract.tokenURI(i.tokenId)
       const meta = await axios.get(tokenUri)
       let price = ethers.utils.formatUnits(i.price.toString(), 'ether')
+
+
+
+
+
+
       let item = {
         price,
         tokenId: i.tokenId.toNumber(),
@@ -77,12 +135,33 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="p-4  umrk bg-black">
-                  <p className="text-2xl font-bold text-white">{nft.price} MATIC</p>
-                  <button className=" hover:rotate-2 delay-100 transition ease-in-out   text-center border hover:bg-gray-100 hover:shadow-md border-gray-500 rounded-md mt-4 w-full bg-green-500 text-cyan font-bold py-2 px-12 rounded" onClick={() => buyNft(nft)}>Buy</button>
-                </div>
+            {/* <p className="text-2xl font-bold text-white">{nft.price} MATIC</p> */}
+            <button className=" hover:rotate-2 delay-100 transition ease-in-out   text-center border hover:bg-gray-100 hover:shadow-md border-gray-500 rounded-md mt-4 w-full bg-green-500 text-cyan font-bold py-2 px-12 rounded" onClick={() => buyNft(nft)}>Buy</button>
+          </div>
+              
               </div>
             ))
+           
           }
+
+
+{isLoading ? (
+        // Show loading indicator while data is being fetched
+        <div>Loading...</div>
+      ) : tokens.length > 0 ? (
+        tokens.map((token) => (
+          <div className="subcnt" key={token.id}>
+            <div className="p-4  umrk bg-black">
+            <p className="text-2xl font-bold text-white">{token.price / 10**18} MATIC</p>
+            </div>
+            </div>
+        ))
+      ) : (
+        <div>No data available</div>
+      )}
+
+
+           
         </div>
       </div>
     </div>
