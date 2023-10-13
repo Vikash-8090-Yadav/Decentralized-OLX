@@ -12,8 +12,8 @@ const Card = () => {
       <div name ="Market" id="card" className = "w-full p-5 overflow-x-hidden">
         <div className = "max-w-screen-lg mx-auto flex flex-col items-center justify-center border-gray-500">
           <div className = "pb-8">
-            <p className = "text-4xl font-bold text-center mb-5 text-white">Create, Learn and Earn</p>
-            <p className = "text-xl font-bold text-center mb-5 text-white">Choose from the variety of Courses with new additions published every month.</p>
+            <p className = "text-4xl font-bold text-center mb-5 text-white">Trade, Discover, and Prosper</p>
+            <p className = "text-xl font-bold text-center mb-5 text-white">Choose from the variety of Items with new additions published every month.</p>
           </div>
 
           <div className = "grid sm:grid-cols-1 md:grid-cols-3 gap-4">
@@ -55,8 +55,8 @@ const Card = () => {
           </div>
 
           <div className='flex justify-center items-center mt-10'>
-            <button className = "flex justify-center px-4 py-2 mx-auto text-xl hover:rotate-2 delay-100 transition ease-in-out   text-center border hover:bg-gray-100 hover:shadow-md border-gray-500  rounded-md bg-green-500 text-cyan font-bold">
-              <Link legacyBehavior href={"/Market"} className = "text-white font-extrabold">Click - To get into World of Education Dapp</Link>
+            <button className = "flex justify-center px-4 py-2 mx-auto text-xl from-[#FB65FE] from-100% to-[#9010FF] to-100% hover:rotate-2 delay-100 transition ease-in-out   text-center border hover:bg-gray-100 hover:shadow-md border-gray-500  rounded-md bg-green-500 text-cyan font-bold">
+              <Link legacyBehavior href={"/Market"} className = "text-white font-extrabold">Click -  Dive into the Marketplace Universe Dapp</Link>
             </button>
           </div>
         </div>

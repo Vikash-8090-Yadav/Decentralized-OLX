@@ -27,14 +27,14 @@ function Explore() {
         </div>
         <div className="flex justify-center lg:w-4/5 relative md:p-10">
           <img
-            className="relative z-0 sm:block hidden"
-            src="/About/Explore2.png"
-            height={556} width={742}
+            className="  hover:rotate-2 delay-100 transition ease-in-out   text-center border hover:bg-gray-100 hover:shadow-md border-gray-500  rounded-md bg-green-500 text-cyan font-bold relative z-0 sm:block hidden"
+            src="/About/Exp.png"
+            height={556} width={698}
             
             alt="H"
           />
           <img
-            src="/About/Explore.png"
+            src="/About/Exp.png"
             className="scale-110 relative z-10 sm:hidden"
             alt="Ye"
           />

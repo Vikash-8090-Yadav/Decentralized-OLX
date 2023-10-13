@@ -44,9 +44,10 @@ function Hero() {
         <div>
           <div className="font-Poppins md:pt-8 md:pb-5 text-[#9010FF] text-3xl font-semibold text-center md:text-left m-8 md:m-0">A decentralized application</div>
           <div className="font-Poppins text-[#FF5959] font-extrabold text-5xl whitespace-normal leading-[1.2] text-center md:text-left">
-          education, empowering<br />
-        creators, learners, and <br />
-        rewarding reviewers.
+          unique item trading,<br />
+          community of collectors, sellers<br />
+          engaging reviewers.
+         
         </div>
         
           <div className="pt-5 flex justify-center items-center md:justify-start">

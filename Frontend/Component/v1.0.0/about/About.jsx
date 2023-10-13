@@ -13,12 +13,11 @@ const AboutUs = () => {
       <div className="flex flex-col md:flex-row justify-between p-5 m-10 relative sm:p-10">
         <div className="hidden lg:block">
           <h1 className="text-5xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mt-24">
-            About <br /> Edu.dApp
+            About <br /> OLX.dApp
           </h1>
           <p className="text-white lg:w-3/5 ml-12 xl:w-1/2 text-lg mt-8 tracking-wider">
-          Our project, a Decentralized Application (Dapp), is leading the way in this educational revolution. I
-          t offers a new way for course creators to share their knowledge, for learners to find and use courses,
-           and for reviewers to get rewards for their feedback.
+          Our mission is to empower users to explore their passions, connect with like-minded individuals,
+           and unlock the true value of their possessions within a trusted decentralized ecosystem.
 
 
           </p>
@@ -65,10 +64,11 @@ const AboutUs = () => {
                   Our Vision
                 </h1>
                 <p className="text-[#D4D4D4] text-xl tracking-wider">
-                  Our vision is to create a global ecosystem that democratizes education, making it accessible, affordable, 
-                  and reliable for everyone. We believe that every individual has the potential to be both a learner and a teacher, 
-                  and our Dapp is designed to empower them to do so. By harnessing the power of blockchain technology, we aim to remove 
-                  intermediaries, reduce costs, and enhance trust in the educational marketplace.
+                At "Decentralised OLX," we envision a global community of collectors, traders, and enthusiasts seamlessly interacting 
+          in a secure and transparent marketplace. By harnessing the power of NFTs and blockchain, we aim to create an inclusive 
+          platform where users can confidently trade unique items, build their collections, and participate in a burgeoning economy 
+          of rare and valuable goods. Our mission is to empower users to explore their passions, connect with like-minded individuals,
+           and unlock the true value of their possessions within a trusted decentralized ecosystem.
                 </p>
               </div>
             </div>
