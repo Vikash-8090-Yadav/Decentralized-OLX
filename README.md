@@ -26,5 +26,6 @@ npm install --legacy-peer-deps
 ```bash
 npm run dev
 ```
+
 6. Access the dApp:
 Open your web browser and visit http://localhost:3000 to interact with the Decentralized-OLX application.
