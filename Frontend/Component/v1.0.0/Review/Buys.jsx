@@ -8,7 +8,7 @@ import { Button } from "antd";
 
 import nftcntrct from "../../../artifacts/contracts/NFTMarketplace.sol/NFTMarketplace.json";
 import { Modal, Input, Tooltip } from 'antd'
-const cntaddress = "0xe589368bd5B640A76b533240BE31962c75ded498";
+const cntaddress = "0xDDd4798E600A42045a52ecF24F42a72035Cea20C";
 
 let walletprovider;
 if (typeof window !== 'undefined' && typeof window.ethereum !== 'undefined') {

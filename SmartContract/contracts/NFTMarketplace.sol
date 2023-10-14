@@ -21,8 +21,7 @@ contract NFTMarketplace is ERC721URIStorage {
     event TokenResold(uint256 indexed tokenId, address seller, address owner, uint256 price);
     event MarketSale(uint256 indexed tokenId, address buyer, address seller, uint256 price);
     event ListingPriceUpdated(uint256 newPrice);
-    event ChaiBought(string name, string message, uint256 timestamp, address buyer, uint256 amount);
-
+   
     struct Memo {
         string name;
         string message;
@@ -191,6 +190,7 @@ contract NFTMarketplace is ERC721URIStorage {
         memos.push(Memo(name, message, block.timestamp, msg.sender)); // Now we will add that donator to our donators list
 
         // Emit the Donation event
+        emit Donation(msg.sender, name, message, block.timestamp, msg.value);
         
     }
 
