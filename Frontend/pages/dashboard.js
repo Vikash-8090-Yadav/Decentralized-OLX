@@ -23,7 +23,7 @@ export default function CreatorDashboard() {
 
 
 
-  const QueryURL = "https://api.studio.thegraph.com/query/54911/olx-marketplac/v0.0.1";
+  const QueryURL = "https://api.studio.thegraph.com/query/54911/decentralised-olx/v0.0.1";
 
   let query = `
     {
