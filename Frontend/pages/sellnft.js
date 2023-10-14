@@ -47,6 +47,7 @@ const [file, setFile] = useState(null);
   async function onChange(e) {
     e.preventDefault();
     const file = e.target.files[0];
+    alert(file)
     try {
 
     const selectedFile = e.target.files ? file : null;
@@ -69,6 +70,7 @@ const [file, setFile] = useState(null);
         progress: (prog) => console.log(`received: ${prog}`),
       }); 
       const url = `https://sal-dapp.infura-ipfs.io/ipfs/${added.path}`;
+      alert(url);
       setFileUrl(url);
     } catch (error) {
       console.log('Error uploading file: ', error);
@@ -100,7 +102,7 @@ const [file, setFile] = useState(null);
     }
 
   
-    // if (!name || !description || !price || !fileUrl) return;
+    if (!name || !description || !price || !fileUrl) return;
  
     /* first, upload to IPFS */
     
@@ -194,27 +196,27 @@ const [file, setFile] = useState(null);
           <div className="md:w-1/2 bg-black flex flex-col justify-center items-center">
             <h2 className='text-3xl mb-4 text-white'>Add your details</h2>
             <div>
-              <p className='text-justify px-4 text-white'>Congratulations on taking the step to share your knowledge with the world! As you provide the details for your course, remember that you're not just creating content; you're building opportunities for others to learn and grow. Your course will be a valuable addition to our marketplace, opening doors for eager learners. Thank you for being a part of our educational community</p>
+              <p className='text-justify px-4 text-white'>Congratulations on taking the step to become a part of our vibrant community! By contributing your unique items to "Decentralised OLX," you're not just listing products; you're creating opportunities for others to discover and own exceptional pieces. Your participation in our marketplace enriches the experience for all, fostering a dynamic environment for collectors and enthusiasts alike. Thank you for being an integral part of our growing network of passionate traders and buyers.</p>
             </div>
           </div>
           <div className="md:w-1/2 py-10 px-12">
-            <p className="mb-3">Sell your course and get paid.</p>
+            <p className="mb-3">Sell your ITEM and get paid.</p>
             <form>
               <div className="mt-5">
-                <input placeholder="Course Name" className="border-2 border-black rounded p-4 mb-2 w-full" onChange={(e) => updateFormInput({ ...formInput, name: e.target.value })}/>
+                <input placeholder="ITEM Name" className="border-2 border-black rounded p-4 mb-2 w-full" onChange={(e) => updateFormInput({ ...formInput, name: e.target.value })}/>
               </div>
 
               <div className="mt-5">
-                <textarea placeholder="Course Description" className="border-2 border-black rounded p-4 mb-2 w-full" onChange={(e) => updateFormInput({ ...formInput, description: e.target.value })}/>  
+                <textarea placeholder="ITEM Description" className="border-2 border-black rounded p-4 mb-2 w-full" onChange={(e) => updateFormInput({ ...formInput, description: e.target.value })}/>  
               </div>
               
               <div className="mt-5">
-                <input placeholder="Course Price in MATIC" className="border-2 border-black rounded p-4 mb-2 w-full" onChange={(e) => updateFormInput({ ...formInput, price: e.target.value })}/>  
+                <input placeholder="ITEM Price in MATIC" className="border-2 border-black rounded p-4 mb-2 w-full" onChange={(e) => updateFormInput({ ...formInput, price: e.target.value })}/>  
               </div>
               
               <div className="mt-5">
 							  <label className="block text-sm font-medium text-gray-700 name1">
-								  Select Course Image
+								  Select ITEM Image
 							  </label>
 							  <div className="mt-1 flex items-center border-2 border-black">
 								  <span className="inline-block h-12 w-12 overflow-hidden rounded-full bg-gray-100">

@@ -24,7 +24,7 @@ const Card = () => {
 
               <div className = "bg-gradient-to-b from-black to-gray-800 text-center">
                 <div>
-                  <p className = "text-sm text-justify font-bold mx-auto p-3 text-white">For those with little to no prior knowledge, Basic Courses acts as an introduction in any particular domain. These classes address fundamental skills with the goal of giving students the background knowledge required to confidently use technology. </p>
+                  <p className = "text-sm text-justify font-bold mx-auto p-3 text-white"> <p className ="text-lg font-bold text-red-600">List Item:</p> This feature enables users to upload details and images of their unique or vintage items onto the platform. By listing the item, the user essentially puts it up for sale in the marketplace. The information provided helps potential buyers understand the specifications, condition, and any other relevant details about the item before making a purchase. </p>
                 </div>
               </div>
             </div>
@@ -36,7 +36,7 @@ const Card = () => {
 
               <div className = "bg-gradient-to-b from-black to-gray-800 text-center">
                 <div>
-                  <p className = "text-sm text-justify font-bold mx-auto p-3 text-white">For those with basic knowledge of the domain, Intermediate Courses are good to go with. These classes address concepts with the goal of giving students further knowledge of the skill required to implement the technology in an efficient manner.</p>
+                  <p className = "text-sm text-justify font-bold mx-auto p-3 text-white"> <p className ="text-lg font-bold text-yellow-600"> Buy Item:</p> Users interested in acquiring unique or vintage items can browse through the listings available on the platform and initiate a purchase. Once they find an item that meets their requirements, they can proceed with the transaction. The purchase process typically involves secure payment methods, ensuring a smooth and reliable experience for the buyer.</p>
                 </div>
               </div>
             </div>
@@ -48,7 +48,7 @@ const Card = () => {
 
               <div className = "bg-gradient-to-b from-black to-gray-800 text-center">
                 <div>
-                  <p className = "text-sm text-justify font-bold mx-auto p-3 text-white">For those who want to further enhance their knowledge and competence in a particular field should enrol in Advanced Courses. These programmes offer specialised skills for numerous industries and cater to a variety of interests and career goals. </p>
+                  <p className = "text-sm text-justify font-bold mx-auto p-3 text-white"> <p className ="text-lg font-bold text-blue-600">Review Item:</p> After a successful transaction, buyers have the option to review the purchased item. This feature allows users to share their experience, opinions, and feedback about the item's quality, authenticity, or any other relevant aspect. Reviews provide valuable insights for other potential buyers and contribute to building trust within the community. Additionally, the review process may also involve rating the seller, contributing to their overall reputation within the marketplace. </p>
                 </div>
               </div>
             </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import heroIcon from "../../../public/About/In2.png";
+import heroIcon from "../../../public/About/G.png";
 
 
 
