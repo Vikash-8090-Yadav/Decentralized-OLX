@@ -136,7 +136,7 @@ function HappyClient() {
             alt="Github"
           />
           <img
-            src="/About/Bottom/bunzz.png"
+            src="/About/Graph.png"
             className="h-12 lg:relative absolute xl:h-16 sm:left-[82%] left-[66%] sm:top-0 top-[400px] lg:left-0"
             alt="react"
           />
