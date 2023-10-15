@@ -126,6 +126,8 @@ Open your web browser and visit http://localhost:3000 to interact with the OLX a
 
 ## Graph
 
+### Subgraph Link:  https://thegraph.com/studio/subgraph/decentralised-olx/
+
 A subgraph extracts data from a blockchain, processing it and storing it so that it can be easily queried via GraphQL.
 
 **The below is the data that is stored in Graph protocol and used in frontend**
