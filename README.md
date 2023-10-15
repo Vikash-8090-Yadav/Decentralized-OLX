@@ -1,4 +1,4 @@
-# This project is built under DATA AI HACKATHON
+# This project is built under DATA AND  AI HACKATHON
 
 ![Screenshot from 2023-10-15 07-48-36](https://github.com/Vikash-8090-Yadav/Decentralized-OLX/assets/85225156/6db66790-ace9-4f8b-85e4-5bb9e8ee57bd)
 
