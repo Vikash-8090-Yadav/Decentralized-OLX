@@ -190,6 +190,7 @@ A subgraph extracts data from a blockchain, processing it and storing it so that
 
 ## 🎥 Video Demo
 
+https://youtu.be/EHjhnc4B_9M
 
 
 ## 🤝 Contributing
