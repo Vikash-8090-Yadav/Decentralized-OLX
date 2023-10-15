@@ -9,6 +9,7 @@
   <span style="color: yellow">OLX.DAPp MarketPlace</span>
 </h1>
 <p> <b>"Decentralised OLX" is a dynamic platform where users can effortlessly list and purchase rare, vintage, and unique items in the form of NFTs. Our user-friendly interface allows individuals to upload images of their cherished possessions, which are then transformed into verifiable NFTs. These NFTs are made available on our open marketplace, enabling users to engage in transparent and secure transactions, confident in the knowledge that the items they are acquiring are one-of-a-kind and authenticated through blockchain technology..</b> </p>
+
 <br>
 
   
