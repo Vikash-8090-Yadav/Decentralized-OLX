@@ -59,11 +59,11 @@ Our vision is to create a global ecosystem that democratizes education, making i
 To run the Edu.dev locally, follow these steps:
 1. Clone the repository:
  ```bash
- git clone 
+ git clone https://github.com/Vikash-8090-Yadav/Decentralized-OLX
  ```
  2. Navigate to the project directory:
 ```bash
-cd /Frontend
+cd  Decentralized-OLX/Frontend
 ```
 3. Node Re-versioning
 
