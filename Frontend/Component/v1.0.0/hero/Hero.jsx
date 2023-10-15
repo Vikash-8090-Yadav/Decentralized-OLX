@@ -57,7 +57,7 @@ function Hero() {
       </div>
 
       <div className="md:mt-24 md:pl-0 pl-5 mt-8">
-        <Image src={heroIcon} height={400} width={600} alt="" />
+        <Image src={heroIcon} height={300} width={500} alt="" />
       </div>
     </div>
   );
