@@ -237,28 +237,6 @@ We appreciate your contributions and thank you for helping us improve Algo-Media
 <a href="https://www.linkedin.com/in/vikash-kumar-yadav-8090/"><img src="https://mpng.subpng.com/20180324/vhe/kisspng-linkedin-computer-icons-logo-social-networking-ser-facebook-5ab6ebfe5f5397.2333748215219374063905.jpg" width="32px" height="32px"></a>
    </td>
   
-   <td  align="center"><a href="https://github.com/Mahak008"><img src="https://github.com/Vikash-8090-Yadav/Portfolio_3.0/assets/85225156/ff5c5fbd-9d34-4c22-bb8e-9067500316ae" width=150px height=150px /></a></br> <h4 style="color:red;">Mahak Garg</h4>
-<a href="https://linkedin.com/in/mahakgarg/"><img src="https://mpng.subpng.com/20180324/vhe/kisspng-linkedin-computer-icons-logo-social-networking-ser-facebook-5ab6ebfe5f5397.2333748215219374063905.jpg" width="32px" height="32px"></a>
-
-
-   </td>
-  <td  align="center"><a href="https://github.com/ankur0904"><img src="https://avatars.githubusercontent.com/u/98346896?v=4" width=150px height=150px /></a></br> <h4 style="color:red;">Ankur Singh</h4>
-<a href="https://linkedin.com/in/ankur-singh-161458227/"><img src="https://mpng.subpng.com/20180324/vhe/kisspng-linkedin-computer-icons-logo-social-networking-ser-facebook-5ab6ebfe5f5397.2333748215219374063905.jpg" width="32px" height="32px"></a>
-
-
-   </td>
-   <td align="center"><a href="https://github.com/Mahak008"><img src="https://avatars.githubusercontent.com/u/93481880?v=4" width=150px height=150px /></a></br> <h4 style="color:red;">Divesh S</h4>
-<a href="https://linkedin.com/in/diveshs1078/"><img src="https://mpng.subpng.com/20180324/vhe/kisspng-linkedin-computer-icons-logo-social-networking-ser-facebook-5ab6ebfe5f5397.2333748215219374063905.jpg" width="32px" height="32px"></a>
-
-
-   </td>
-
-</tr>
-</table>
-
-
-<p align = "center">
-Show some ❤️&nbsp; by giving <img src="https://imgur.com/o7ncZFp.jpg" height=25px width=25px> to this repo
-</p>
+   
 </div>
 <a href="#top">Back to top ⬆️</a>
