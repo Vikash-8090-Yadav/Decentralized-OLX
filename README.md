@@ -48,7 +48,7 @@ Our vision is to create a global ecosystem that democratizes education, making i
     </tr>
     <tr>
       <td>Vercel</td>
-      <td> https://edudev-learn-and-earn-platform-dappathon-season-2.vercel.app/</td>
+      <td> </td>
     </tr>
     </table>
 </div>
@@ -181,8 +181,7 @@ A subgraph extracts data from a blockchain, processing it and storing it so that
 | Hardhat | Ethereum development environment | https://hardhat.org/ |
 | Etherjs | Ethereum JavaScript API | 	https://docs.ethers.org/v5/ |
 | Polygon | Polygon (formerly known as Matic Network) is a Layer 2 scaling solution for Ethereum that enables faster and cheaper transactions on the blockchain. It leverages Ethereum as its main backbone while adding its own network of sidechains, allowing for efficient scaling and interoperability with other Ethereum-based systems. | https://polygon.technology/ |
-
-| Graph | 	Decentralized blockchain platform for building Cross Chain decentralized applications |https://thegraph.com/docs/en/developing/creating-a-subgraph/ |
+| Graph | 	Decentralized blockchain platform for building Cross Chain decentralized applications | https://thegraph.com/docs/en/developing/creating-a-subgraph/ |
 </h4>
 
 <be>
