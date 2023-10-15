@@ -161,7 +161,8 @@ A subgraph extracts data from a blockchain, processing it and storing it so that
 ![Screenshot from 2023-10-15 07-56-12](https://github.com/Vikash-8090-Yadav/Decentralized-OLX/assets/85225156/47a422e1-c6ec-4182-b2df-a61b6fd97343)
 
 
-### Review course 
+### Review ITEM
+
 
 ![Screenshot from 2023-10-15 07-58-53](https://github.com/Vikash-8090-Yadav/Decentralized-OLX/assets/85225156/26b8e185-b634-4cf1-b645-b76b187aeb42)
 
