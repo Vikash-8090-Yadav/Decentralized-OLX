@@ -1,7 +1,10 @@
-# This project is built under DATA AI HACKATHON
+# This project is built under DATA AND  AI HACKATHON
+
+
 
 ![Screenshot from 2023-10-15 07-48-36](https://github.com/Vikash-8090-Yadav/Decentralized-OLX/assets/85225156/6db66790-ace9-4f8b-85e4-5bb9e8ee57bd)
 
+It is a marketplace where users can list their old items, and anyone can buy and resell them at a new price. After providing a review of a particular item, the user will receive an NFT as well.
 
 
 <h1 align="center"> 
@@ -9,6 +12,7 @@
   <span style="color: yellow">OLX.DAPp MarketPlace</span>
 </h1>
 <p> <b>"Decentralised OLX" is a dynamic platform where users can effortlessly list and purchase rare, vintage, and unique items in the form of NFTs. Our user-friendly interface allows individuals to upload images of their cherished possessions, which are then transformed into verifiable NFTs. These NFTs are made available on our open marketplace, enabling users to engage in transparent and secure transactions, confident in the knowledge that the items they are acquiring are one-of-a-kind and authenticated through blockchain technology..</b> </p>
+
 <br>
 
   
@@ -48,7 +52,7 @@ Our vision is to create a global ecosystem that democratizes education, making i
     </tr>
     <tr>
       <td>Vercel</td>
-      <td> https://edudev-learn-and-earn-platform-dappathon-season-2.vercel.app/</td>
+      <td> </td>
     </tr>
     </table>
 </div>
@@ -125,6 +129,8 @@ Open your web browser and visit http://localhost:3000 to interact with the OLX a
 
 ## Graph
 
+### Subgraph Link:  https://thegraph.com/studio/subgraph/decentralised-olx/
+
 A subgraph extracts data from a blockchain, processing it and storing it so that it can be easily queried via GraphQL.
 
 **The below is the data that is stored in Graph protocol and used in frontend**
@@ -181,8 +187,7 @@ A subgraph extracts data from a blockchain, processing it and storing it so that
 | Hardhat | Ethereum development environment | https://hardhat.org/ |
 | Etherjs | Ethereum JavaScript API | 	https://docs.ethers.org/v5/ |
 | Polygon | Polygon (formerly known as Matic Network) is a Layer 2 scaling solution for Ethereum that enables faster and cheaper transactions on the blockchain. It leverages Ethereum as its main backbone while adding its own network of sidechains, allowing for efficient scaling and interoperability with other Ethereum-based systems. | https://polygon.technology/ |
-
-| Graph | 	Decentralized blockchain platform for building Cross Chain decentralized applications |https://thegraph.com/docs/en/developing/creating-a-subgraph/ |
+| Graph | 	Decentralized blockchain platform for building Cross Chain decentralized applications | https://thegraph.com/docs/en/developing/creating-a-subgraph/ |
 </h4>
 
 <be>
