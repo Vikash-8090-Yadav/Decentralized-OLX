@@ -6,7 +6,7 @@
 
 <h1 align="center"> 
   <img src="https://user-images.githubusercontent.com/85225156/215914335-d9a35b88-99ae-4769-8b1d-3b7e8ca3f993.png" width="35" height="30">
-  <span style="color: yellow">Edu.dev MarketPlace</span>
+  <span style="color: yellow">OLX.DAPp MarketPlace</span>
 </h1>
 <p> <b>"Decentralised OLX" is a dynamic platform where users can effortlessly list and purchase rare, vintage, and unique items in the form of NFTs. Our user-friendly interface allows individuals to upload images of their cherished possessions, which are then transformed into verifiable NFTs. These NFTs are made available on our open marketplace, enabling users to engage in transparent and secure transactions, confident in the knowledge that the items they are acquiring are one-of-a-kind and authenticated through blockchain technology..</b> </p>
 <br>
