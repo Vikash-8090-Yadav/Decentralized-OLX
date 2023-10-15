@@ -52,7 +52,7 @@ Our vision is to create a global ecosystem that democratizes education, making i
     </tr>
     <tr>
       <td>Vercel</td>
-      <td> </td>
+      <td>https://decentralized-olx.vercel.app/</td>
     </tr>
     </table>
 </div>
